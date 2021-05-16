@@ -6,4 +6,4 @@
 
 **Enjoy the fun in the moment and create some highscores.**
 
-Think you can beat the current high score? <a href="">Then give it a try here</a>.
+Think you can beat the current high score? <a href="https://playsnakegame.netlify.app">Then give it a try here</a>.

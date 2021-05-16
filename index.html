@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snaky</title>
+
+    <style>
+      #canvas {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      #control {
+      }
+
+      #scores {
+      }
+      #score,
+      #scorer {
+        font-weight: 900;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="canvas">
+      <div id="canvas-con">
+        <canvas
+          class="canvas"
+          height="200"
+          width="200"
+          style="background-color: cadetblue; margin: auto"
+        >
+        </canvas>
+      </div>
+
+      <div style="color: cadetblue">
+        <h1>Your Score: <span class="score" style="color: black"></span></h1>
+        <div id="scores">
+          <h1 style="text-decoration: underline">Top Scores</h1>
+          <div>
+            <span id="scorer">scorer</span> <span id="score">score</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div id="control">
+        <span>ArrowUp</span>
+        <span>ArrowLef</span>
+        <span>ArrowRight</span>
+        <span>ArrowDown</span>
+      </div> -->
+    </div>
+  </body>
+  <script type="text/javascript" src="snake.js"></script>
+  <script type="text/javascript" src="fruit.js"></script>
+  <script type="text/javascript" src="draw.js"></script>
+</html>
